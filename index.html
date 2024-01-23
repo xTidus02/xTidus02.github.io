@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c38d02887b67be1a861e2a52818dc243 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c38d02887b67be1a861e2a52818dc243" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c38d02887b67be1a861e2a52818dc243 = L.map(
+                "map_c38d02887b67be1a861e2a52818dc243",
+                {
+                    center: [-13.531841345972419, -71.96880964304947],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_124c5a6b3fc1fb71327c94e96ca26a24 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c38d02887b67be1a861e2a52818dc243);
+        
+    
+            var marker_7347361c365c03b3006985c7b75a129d = L.marker(
+                [-13.51662916862403, -71.97876595219397],
+                {}
+            ).addTo(map_c38d02887b67be1a861e2a52818dc243);
+        
+    
+            var icon_e349fb78e9fc706828a8aa6993a5f203 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_7347361c365c03b3006985c7b75a129d.setIcon(icon_e349fb78e9fc706828a8aa6993a5f203);
+        
+    
+        var popup_fc0f638621ec7eb0f0fb3f9ac41b3a76 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4252a840943122efa87755df194cda0b = $(`<div id="html_4252a840943122efa87755df194cda0b" style="width: 100.0%; height: 100.0%;">Plaza de Armas Cusco</div>`)[0];
+                popup_fc0f638621ec7eb0f0fb3f9ac41b3a76.setContent(html_4252a840943122efa87755df194cda0b);
+            
+        
+
+        marker_7347361c365c03b3006985c7b75a129d.bindPopup(popup_fc0f638621ec7eb0f0fb3f9ac41b3a76)
+        ;
+
+        
+    
+    
+            var marker_1687db6d77d3a354b177404251338b2f = L.marker(
+                [-13.509532561761139, -71.98172002265493],
+                {}
+            ).addTo(map_c38d02887b67be1a861e2a52818dc243);
+        
+    
+            var icon_1b4ed4b54a60ec59a8ca03fd2b97e958 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1687db6d77d3a354b177404251338b2f.setIcon(icon_1b4ed4b54a60ec59a8ca03fd2b97e958);
+        
+    
+        var popup_67bd83e2459e1c5d63717a869550391a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_cbffaa9df753fcc3b9f40a8dbf909743 = $(`<div id="html_cbffaa9df753fcc3b9f40a8dbf909743" style="width: 100.0%; height: 100.0%;">Sacsayhuaman</div>`)[0];
+                popup_67bd83e2459e1c5d63717a869550391a.setContent(html_cbffaa9df753fcc3b9f40a8dbf909743);
+            
+        
+
+        marker_1687db6d77d3a354b177404251338b2f.bindPopup(popup_67bd83e2459e1c5d63717a869550391a)
+        ;
+
+        
+    
+    
+            var marker_1071aaecb8c19cc99b3579faaaef162d = L.marker(
+                [-13.256972092638351, -72.26583432086147],
+                {}
+            ).addTo(map_c38d02887b67be1a861e2a52818dc243);
+        
+    
+            var icon_0a14fede4a01dc08757abb37a0beac3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "heart", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_1071aaecb8c19cc99b3579faaaef162d.setIcon(icon_0a14fede4a01dc08757abb37a0beac3b);
+        
+    
+        var popup_bdbda8abbe18d471222ad7adbd33433e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b57b9ddaa20d10f9373bf6b803d42b32 = $(`<div id="html_b57b9ddaa20d10f9373bf6b803d42b32" style="width: 100.0%; height: 100.0%;">Ollantaytambo</div>`)[0];
+                popup_bdbda8abbe18d471222ad7adbd33433e.setContent(html_b57b9ddaa20d10f9373bf6b803d42b32);
+            
+        
+
+        marker_1071aaecb8c19cc99b3579faaaef162d.bindPopup(popup_bdbda8abbe18d471222ad7adbd33433e)
+        ;
+
+        
+    
+    
+            var marker_2bf0232541dfd908288136f8efbc344f = L.marker(
+                [-13.421891693163168, -71.84773998083129],
+                {}
+            ).addTo(map_c38d02887b67be1a861e2a52818dc243);
+        
+    
+            var icon_c42c23bce966c6fbc5511edcba0d84ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2bf0232541dfd908288136f8efbc344f.setIcon(icon_c42c23bce966c6fbc5511edcba0d84ec);
+        
+    
+        var popup_20231272d978197f9f0a2beead5cfd69 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d871b818dc025c85b30ead775dd0646f = $(`<div id="html_d871b818dc025c85b30ead775dd0646f" style="width: 100.0%; height: 100.0%;">Pisaq</div>`)[0];
+                popup_20231272d978197f9f0a2beead5cfd69.setContent(html_d871b818dc025c85b30ead775dd0646f);
+            
+        
+
+        marker_2bf0232541dfd908288136f8efbc344f.bindPopup(popup_20231272d978197f9f0a2beead5cfd69)
+        ;
+
+        
+    
+    
+            var marker_759fc78dfa1dc32db45cfa78340feaff = L.marker(
+                [-13.479736719196387, -71.96631956793324],
+                {}
+            ).addTo(map_c38d02887b67be1a861e2a52818dc243);
+        
+    
+            var icon_2f0744a015ad5058d8776f5058ae9aaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_759fc78dfa1dc32db45cfa78340feaff.setIcon(icon_2f0744a015ad5058d8776f5058ae9aaf);
+        
+    
+        var popup_c380af3b55eb1bdbae3d48129eae1a3e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0dcf6c219162c190cf64b24665e89f9b = $(`<div id="html_0dcf6c219162c190cf64b24665e89f9b" style="width: 100.0%; height: 100.0%;">Tambomachay</div>`)[0];
+                popup_c380af3b55eb1bdbae3d48129eae1a3e.setContent(html_0dcf6c219162c190cf64b24665e89f9b);
+            
+        
+
+        marker_759fc78dfa1dc32db45cfa78340feaff.bindPopup(popup_c380af3b55eb1bdbae3d48129eae1a3e)
+        ;
+
+        
+    
+    
+            var marker_b16c9fe060ad859e96d4e19c956e0bc4 = L.marker(
+                [-13.869832237808446, -71.30301155768717],
+                {}
+            ).addTo(map_c38d02887b67be1a861e2a52818dc243);
+        
+    
+            var icon_70bc47c7fc1286b13e6daa8f6365d05e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b16c9fe060ad859e96d4e19c956e0bc4.setIcon(icon_70bc47c7fc1286b13e6daa8f6365d05e);
+        
+    
+        var popup_db081ecfc1e99dca23a3cc119d51013b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bcc3b4f1256de6126cc3964cc4bba561 = $(`<div id="html_bcc3b4f1256de6126cc3964cc4bba561" style="width: 100.0%; height: 100.0%;">Montaña de 7 colores </div>`)[0];
+                popup_db081ecfc1e99dca23a3cc119d51013b.setContent(html_bcc3b4f1256de6126cc3964cc4bba561);
+            
+        
+
+        marker_b16c9fe060ad859e96d4e19c956e0bc4.bindPopup(popup_db081ecfc1e99dca23a3cc119d51013b)
+        ;
+
+        
+    
+    
+            var marker_8a2c2ac1f6403752e475c995cef92cd4 = L.marker(
+                [-13.162551088883433, -72.545176269317],
+                {}
+            ).addTo(map_c38d02887b67be1a861e2a52818dc243);
+        
+    
+            var icon_f6a6e8e58ed5467af04de40a895af7d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8a2c2ac1f6403752e475c995cef92cd4.setIcon(icon_f6a6e8e58ed5467af04de40a895af7d1);
+        
+    
+        var popup_f2c556adc579ea099b5b1921311cda09 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d252b7e2fe43ddc6aae214218bc8b5e8 = $(`<div id="html_d252b7e2fe43ddc6aae214218bc8b5e8" style="width: 100.0%; height: 100.0%;">Machu Picchu </div>`)[0];
+                popup_f2c556adc579ea099b5b1921311cda09.setContent(html_d252b7e2fe43ddc6aae214218bc8b5e8);
+            
+        
+
+        marker_8a2c2ac1f6403752e475c995cef92cd4.bindPopup(popup_f2c556adc579ea099b5b1921311cda09)
+        ;
+
+        
+    
+    
+            var marker_cfece243b318b01f530a46cc7d1ba88f = L.marker(
+                [-13.515321707003258, -71.9763175153415],
+                {}
+            ).addTo(map_c38d02887b67be1a861e2a52818dc243);
+        
+    
+            var icon_2c09f94eb1addbaef43e3d9b54d09bd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cfece243b318b01f530a46cc7d1ba88f.setIcon(icon_2c09f94eb1addbaef43e3d9b54d09bd4);
+        
+    
+        var popup_9c2677634ec53984c2644529c753bebc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3fafffc290f77d2e1ce33d831dac3ee5 = $(`<div id="html_3fafffc290f77d2e1ce33d831dac3ee5" style="width: 100.0%; height: 100.0%;">Piedra de los 12 angulos</div>`)[0];
+                popup_9c2677634ec53984c2644529c753bebc.setContent(html_3fafffc290f77d2e1ce33d831dac3ee5);
+            
+        
+
+        marker_cfece243b318b01f530a46cc7d1ba88f.bindPopup(popup_9c2677634ec53984c2644529c753bebc)
+        ;
+
+        
+    
+    
+            var marker_8a9bf592bc47b5d4ede2307a3ab0fb6d = L.marker(
+                [-13.388993164288737, -72.04649457380093],
+                {}
+            ).addTo(map_c38d02887b67be1a861e2a52818dc243);
+        
+    
+            var icon_4f6f3e717bbd613f336d67c4ddd02fc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8a9bf592bc47b5d4ede2307a3ab0fb6d.setIcon(icon_4f6f3e717bbd613f336d67c4ddd02fc3);
+        
+    
+        var popup_a6e40de1c0cd75c53d7f0c0c9df8a118 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ae02a51c574ae695c7cadeed65d2e7c7 = $(`<div id="html_ae02a51c574ae695c7cadeed65d2e7c7" style="width: 100.0%; height: 100.0%;">Chinchero</div>`)[0];
+                popup_a6e40de1c0cd75c53d7f0c0c9df8a118.setContent(html_ae02a51c574ae695c7cadeed65d2e7c7);
+            
+        
+
+        marker_8a9bf592bc47b5d4ede2307a3ab0fb6d.bindPopup(popup_a6e40de1c0cd75c53d7f0c0c9df8a118)
+        ;
+
+        
+    
+    
+            var marker_2e2e0fe87fb1203bbae8e187bdec3ff1 = L.marker(
+                [-13.33187647867994, -72.08446489999177],
+                {}
+            ).addTo(map_c38d02887b67be1a861e2a52818dc243);
+        
+    
+            var icon_f7269e3b8de0859527599567c76a5d75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2e2e0fe87fb1203bbae8e187bdec3ff1.setIcon(icon_f7269e3b8de0859527599567c76a5d75);
+        
+    
+        var popup_a0fb1d05eb6379fb6481f52f1298283d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_90449faa58fc43c109c344f1270f4684 = $(`<div id="html_90449faa58fc43c109c344f1270f4684" style="width: 100.0%; height: 100.0%;">Valle Sagrado </div>`)[0];
+                popup_a0fb1d05eb6379fb6481f52f1298283d.setContent(html_90449faa58fc43c109c344f1270f4684);
+            
+        
+
+        marker_2e2e0fe87fb1203bbae8e187bdec3ff1.bindPopup(popup_a0fb1d05eb6379fb6481f52f1298283d)
+        ;
+
+        
+    
+</script>
+</html>
